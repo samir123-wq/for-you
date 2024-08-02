@@ -1,0 +1,309 @@
+
+nav{
+  background-color: rgb(39, 38, 38);
+}
+.nav-item{
+  margin-left: 25px;
+}
+#center{
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#Home{
+  margin-top: 100px;
+  color: white;
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./hoodie.jpg);
+  padding: 100px 50px;
+}
+#noob{
+  text-align: center;
+  padding-top: 100px;
+  font-size: 50px;
+}
+.three-colums{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+.columns{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px 20px 30px 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.47);
+  border-radius: 10px;
+  height: 450px;
+}
+.nalla{
+  margin-top: 50px;
+}
+.nalla1{
+  margin-top: 90px;
+}
+.itsyo{
+ margin-top: 90px;
+}
+.er{
+  font-size: 32px;
+  font-weight: 700;
+  
+}
+.er-des-container{
+  padding-left: 15px;
+  padding-right: 10px;
+  height: auto;
+}
+.er-des{
+  line-height: 1.2;
+  font-size: 16px;
+  font-weight: 150;
+  height: 90px;
+  width: 290px;
+  padding-bottom: 50px;
+}
+
+.container-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 80px;
+  justify-content: space-between;
+}
+
+.discover{
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 600;
+}
+.grid-damn{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.item4 {
+  text-align: left;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.item5 {
+  text-align: left;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+.hanging{
+  width: 600px;
+  height: auto;
+  border: 5px black solid;
+  border-radius: 10px;
+}
+.text{
+  margin-left: 60px;
+}
+.little{
+  font-size: smaller;
+}
+.outlined-button {
+  border: 2px solid rgb(3, 3, 3); /* Red outline */
+  color: rgb(3, 3, 3); /* Red text color */
+  background-color: transparent; /* Transparent background */
+  margin-left: 70px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all 0.3s ease; /* Smooth transition on hover */
+  margin-bottom: 70px;
+}
+
+.outlined-button:hover {
+  background-color: red; /* Red background on hover */
+  color: white; /* White text color on hover */
+  border: red;
+}
+.red-bn {
+  color: rgb(255, 0, 0); /* Red text color */
+  background-color: transparent; /* Transparent background */
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all 0.3s ease; /* Smooth transition on hover */
+  margin-bottom: 70px;
+}
+
+.red-bn:hover {
+  background-color: rgb(0, 0, 0); /* Red background on hover */
+  color: white; /* White text color on hover */
+}
+.height {
+
+  height: auto;
+}
+
+.card {
+  width: 350px;
+  height: 450px;
+  margin: 10px;
+}
+
+
+
+.main-heading {
+
+  font-size: 40px;
+  color: red !important;
+}
+
+.ratings i {
+
+  color: orange;
+
+}
+
+.user-ratings h6 {
+  margin-top: 2px;
+}
+
+.colors {
+  display: flex;
+  margin-top: 2px;
+}
+
+.colors span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  margin-right: 6px;
+}
+
+.colors span:nth-child(1) {
+
+  background-color: red;
+
+}
+
+.colors span:nth-child(2) {
+
+  background-color: blue;
+
+}
+
+.colors span:nth-child(3) {
+
+  background-color: yellow;
+
+}
+
+.colors span:nth-child(4) {
+
+  background-color: purple;
+
+}
+
+.btn-danger {
+
+  height: 48px;
+  font-size: 18px;
+}
+.container-five{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0px;
+}
+.shop{
+  margin: 40px;
+}
+.container-six{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.outlined-bt{
+  border:none;
+  color: rgb(3, 3, 3); /* Red text color */
+  background-color: transparent; /* Transparent background */
+  margin-left: 10px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all 0.3s ease; /* Smooth transition on hover */
+  margin-bottom: 70px;
+}
+
+.outlined-bt:hover {
+  background-color: red; /* Red background on hover */
+  color: white; /* White text color on hover */
+  border: red;
+}
+.red-vella {
+  color: rgb(255, 255, 255); /* Red text color */
+  background-color: red; /* Transparent background */
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all 0.3s ease; /* Smooth transition on hover */
+  margin-bottom: 70px;
+}
+
+.red-vella:hover {
+  background-color: rgb(0, 0, 0); /* Red background on hover */
+  color: white; /* White text color on hover */
+}
+.kapde{
+  margin-left: 40px;
+  width: 600px;
+  height: auto;
+  border: 5px black solid;
+  border-radius: 10px;
+}
+.outlined-bc{
+  border: 2px solid black;
+  color: rgb(3, 3, 3); /* Red text color */
+  background-color: transparent; /* Transparent background */
+  margin-left: 10px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all 0.3s ease; /* Smooth transition on hover */
+  margin-bottom: 70px;
+}
+
+.outlined-bc:hover {
+  background-color: red; /* Red background on hover */
+  color: white; /* White text color on hover */
+  border: red;
+}
+.red-vanila {
+  color: rgb(255, 255, 255); /* Red text color */
+  background-color: red; /* Transparent background */
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all 0.3s ease; /* Smooth transition on hover */
+  margin-bottom: 70px;
+}
+
+.red-vanila:hover {
+  background-color: rgb(0, 0, 0); /* Red background on hover */
+  color: white; /* White text color on hover */
+}
+.container-seven{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  column-gap: 0;
+}
+.want-gap{
+  display: inline-block;
+  margin-left: 40px;
+}
+.want-rap{
+  margin-left: 150px;
+}
+/*---------footer----------*/
+.text-body{
+  text-decoration: none;
+  font-weight: 500;
+}
+.img-last{
+  display: flex;
+  align-items: center;
+}
